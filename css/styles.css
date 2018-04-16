@@ -108,11 +108,14 @@ artical#main-col{
   position:absolute;
   bottom:0;
   color:#ffffff;
-  padding: 0px 0px 30px 30px;
+      background: rgba(0, 0, 0, 0.26);
+          width: 99%;
+              padding: 0px 0px 0px 58px;
+      margin: 0px 0px 36px 2px;
  /* background: rgba(255,255,255,.9);*/
 }
 section#main-new{
-	 background-color: rgba(205, 220, 57, 0.25);
+	 background-color:#b2c3cc;
 	height:100%;
 	-webkit-box-shadow: 20px 11px 71px -6px rgba(92,90,92,1);
 -moz-box-shadow: 20px 11px 71px -6px rgba(92,90,92,1);
@@ -129,7 +132,7 @@ aside#contant-two{
 	padding: 98px 0px 0px 44px;
 }
 #contant-two p{
-    color:#606d76;
+    color:#313b42;
 }
 artical#contant-one{
     float:left;
@@ -145,46 +148,59 @@ artical#contant-one{
 }
 .dark-one {
   position:absolute;
-  padding: 0px;
   font-size: 15px;
+  padding-left: 25%;
+      padding-top: 4%;
+          text-transform: uppercase;
 }
 .dark-sub-one {
     float: right;
-    padding:0px;
+    padding-right: 25%;
     margin:0px;
     font-size: 15px;
+        padding-top: 4%;
+         text-transform: uppercase;
 }
 .dark-one h1{
-	color:#30a4d5;
+	color:#e8e8e8;
+	text-shadow: 0 2px 2px rgba(0, 0, 0, 0.86);
 }
 .dark-sub-one h1{
-	color:#30a4d5;
+	color:#e8e8e8;
+	text-shadow: 0 2px 2px rgba(0, 0, 0, 0.86);
 }
 .dark-two {
   position:absolute;
   bottom:0;
   padding: 0px;
   font-size: 15px;
+   text-transform: uppercase;
 }
 .dark-sub-two {
     float: right;
+    padding-right: 50%;
     font-size: 15px;
+        padding-top: 4%;
+         text-transform: uppercase;
 }
 .dark-two h1{
-	color:#30a4d5;
+	color:#e8e8e8;
+	text-shadow: 0 2px 2px rgba(0, 0, 0, 0.86);
 }
 .dark-sub-two h1{
-	color:#30a4d5;
+	color:#e8e8e8;
+	text-shadow: 0 2px 2px rgba(0, 0, 0, 0.86);
 }
 .main-contant-three {
-	color:#ffffff;
+	color:#7b7777;
     text-align: center;
-    padding: 60px;
-    border-style: outset;
-    background: url(../img/b4.jpg) no-repeat 0;
+  /*  padding: 60px;*/
+    /*border-style: outset;*/
+        margin-top: 30px;
+   /* background: url(../img/managed-services.png) no-repeat 0;*/
 }
 .main-contant-three p{
-	color:#ffffff;
+	color:#909090;
 	padding:18px;
 }
 #boxes{
@@ -244,26 +260,30 @@ artical#contant-one{
 
 
 .img-box{
-	background:url('../img/small-images.jpeg') no-repeat 0 ;
 	height:250px;
 	background-color:yellow;
 	 text-align: center;
 	        padding-top: 100px;
     font-size: 30px;
 }
+.img-box.new-image{
+	background:url('../img/small-images.jpeg') no-repeat 0 ;
+	}
+.img-box.next-image{
+	background:url('../img/crt.jpeg') no-repeat 0 ;
+}
+/*background:url('../img/crt.jpeg') no-repeat 0 ;*/
 /*#boxes{
 	background:url('../img/image1.jpg') no-repeat 0 ;
 }*/
 .box-one{
-	background-color:#26a9df;
-}
-.box-one{
 	/*background:url('../img/small-images.jpeg') no-repeat 0 ;*/
 	height:250px;
-	background-color:blue;
+	/*background-color:blue;*/
 	 text-align: center;
 	         padding-top: 100px;
     font-size: 30px;
+    background-color: #2b2b40
 }
 #padding-align
 {
@@ -271,11 +291,11 @@ artical#contant-one{
 }
 #align-part {
     padding-top: 100px;
-    color:#ffffff;
+    color:#e6e5e5;
 }
 .container-align
 {
-    background-color: rgba(205, 220, 57, 0.25);
+    background-color: #b2c3cc;
 padding-bottom:60px;
 border-bottom:1px solid #ccc;
 -webkit-box-shadow: 20px 11px 71px -6px rgba(92,90,92,1);
@@ -291,7 +311,7 @@ box-shadow: 20px 11px 71px -6px rgba(92,90,92,1);
 	font-size:40px;
 }
 .heading p{
-	color:#676b70;
+	color:#545454;
 	    margin: 15px 0px 0px 0px;
 }
 .image-fix {
@@ -304,9 +324,10 @@ box-shadow: 20px 11px 71px -6px rgba(92,90,92,1);
 }
 .text-format b{
 	font-size:23px;
+	color:#909090;
 }
 .text-format p{
-	color:#686d73;
+	color:#8e949a;
 	font-size: 20px;
 	padding-top:15px;
 }
@@ -320,7 +341,7 @@ box-shadow: 20px 11px 71px -6px rgba(92,90,92,1);
     margin: 15px;
     border: 1px solid #e5e5e5;
         height: 520px;
-    background-color: #ffffff;
+    background-color: #f5f5f5;
         margin: 0px 15px 0px 0px;
 }
 .col-lg-6.large-box{
@@ -346,9 +367,12 @@ box-shadow: 20px 11px 71px -6px rgba(92,90,92,1);
     max-width: 177px;
 }
 .down-box{
--webkit-box-shadow: 20px 11px 71px -6px rgba(92,90,92,1);
+/*-webkit-box-shadow: 20px 11px 71px -6px rgba(92,90,92,1);
 -moz-box-shadow: 20px 11px 71px -6px rgba(92,90,92,1);
-box-shadow: 20px 11px 71px -6px rgba(92,90,92,1);
+box-shadow: 20px 11px 71px -6px rgba(92,90,92,1);*/
+-webkit-box-shadow: 3px 0px 31px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 0px 31px -1px rgba(0,0,0,0.75);
+box-shadow: 3px 0px 31px -1px rgba(0,0,0,0.75);
       padding: 11px;
     margin: 20px;
 }
@@ -408,8 +432,10 @@ box-shadow: -5px -10px 22px -2px rgba(0,0,0,0.75);
 	padding:10px;
 }*/
 .new-box h3{
-   color:#ffffff;
+   color:#ffffffde;
    font-size:18px;
+   font-weight: bold;
+    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.86);
 }
 .new-box p{
 	color:#ffffff;
@@ -450,9 +476,9 @@ box-shadow: -5px -10px 22px -2px rgba(0,0,0,0.75);
 .new-box.eight {
          background-color:#79bfa2;
 }
-.col-lg-12.fullgrid{
+/*.col-lg-12.fullgrid{
 	padding-top:30px;
-}
+}*/
 .new-box{
 	text-align:center;
 }
@@ -460,4 +486,55 @@ box-shadow: -5px -10px 22px -2px rgba(0,0,0,0.75);
 	background: rgba(0, 0, 0, 0.26);
 	height: 100%;
 	padding: 31px;
+}
+.arrow
+{
+	width:50px;
+	height:50px;
+	padding:5px;
+	background-color:#ffffff;
+	border-radius: 50%;
+	    margin-right: 15px;
+    margin-left: 9px;
+}
+.arrow-comman > .arrow{
+						display:inline-block;
+						    border: 2px solid #ece7e7;
+
+}
+.arrow img{
+		        display: block; 
+     margin-left: auto; 
+    margin-right: auto; 
+    padding: 6px 3px 0px 2px;
+}
+.arrow-comman {
+    text-align: center;
+    padding-top:50px;
+}
+
+.gray-align{
+    background: rgba(0, 0, 0, 0.26);
+}
+.read-btn{
+	width:50px;
+	height:50px;
+	padding:10px;
+	        background: rgb(70, 191, 214);
+	border-radius:50%;
+	float:right;
+	    margin: -80px -51px 0px 0px;
+}
+.read-btn p {
+    width: 100%;
+    margin-left: -113px;
+    display: inline;
+}
+.read-btn img {
+       padding: 0px 0px 0px 30px;
+}
+.bg-color:hover {
+    -webkit-box-shadow: 3px -1px 17px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px -1px 17px 0px rgba(0,0,0,0.75);
+    box-shadow: 3px -1px 17px 0px rgba(0,0,0,0.75);
 }
