@@ -12,7 +12,8 @@
     <title>ATC-American Technology Consulting</title>
     <link href="img/favicon.ico" rel="shortcut icon">
     <link rel="stylesheet" href="./css/styles.css">
-    <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+      <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+    
   </head>
   <body>
    <header>
@@ -47,13 +48,13 @@
 <section id="main">
       <div class="container-fluid">
         <artical id="main-col">
-          <div class="dark">
+          <div class="dark one">
           <h1 >Managed Testing Services</h1>
           <p>American Technology Consulting is perfectly positioned</p>
           </div>
         </artical>
         <aside id="sidebar">
-          <div class="dark">
+          <div class="dark two">
           <h1>IT Staffing Onsite</h1>
           <p>American Technology Consulting is perfectly positioned</p>
           </div>
@@ -65,22 +66,22 @@
      <artical id="contant-one">
           <p>We are an IT Consulting & Staffing Services Company Location in clive,lowa.We take the right talent and get them to the right cline</p>
           <div class="dark-one">
-          <h1>258</h1>
+          <h1 class="counter">258</h1>
           <b>Consultants</b>
           </div>
           <div class="dark-sub-one">
-            <h1>124</h1>
+            <h1 class="counter">124</h1>
           <b>Clients</b>
           </div>
         </artical>
         <aside id="contant-two">
           <p>American Technology Consulting (ATC) is perfectly positioned to assist organizations with direct-hire and staff augmentation services. We are people who lead, support and optimize your IT initiatives. Whether you need to fill one vacant position or add dozens of temporary staff to a new project, using ATC will eliminate the time, expense, and frustration of internally managing your own recruitment and staffing efforts.</p>
           <div class="dark-two">
-            <h1>270</h1>
+            <h1 class="counter">270</h1>
             <b>Projects</b>
           </div>
-           <div <div class="dark-sub-two">
-            <h1>680</h1>
+          <div class="dark-sub-two">
+            <h1 class="counter">680</h1>
           <b>Ordered</b>
           </div>
         </aside>
@@ -451,10 +452,11 @@
       <p> &copy; Copyright 2018 | All Right Reserved</p>
     </footer>
 
- <script
-  src="https://code.jquery.com/jquery-3.2.1.js"
-  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    <script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
   crossorigin="anonymous"></script>
+
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <script>
@@ -478,7 +480,7 @@
           delay: 2000,
           origin:'bottom'
         });
-        sr.reveal('#main-new', {
+        sr.reveal('#main-neew', {
           duration: 2000,
           origin:'bottom'
         });
@@ -500,6 +502,18 @@
           distance:'300px',
           viewFactor: 0.2
         });
+         sr.reveal('.dark.one', {
+          duration: 2000,
+          origin:'right',
+          distance:'300px',
+          viewFactor: 0.2
+        });
+         sr.reveal('.dark.two', {
+          duration: 2000,
+          origin:'left',
+          distance:'300px',
+          viewFactor: 0.2
+        });
         sr.reveal('.new-box.three', {
           duration: 2000,
           origin:'left',
@@ -513,5 +527,22 @@
           viewFactor: 0.2
         });
     </script>
+  
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  <script src="js/jquery.counterup.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+   <script type="text/javascript">
+     $(document).ready(function(){
+      $('.counter').counterUp({
+        delay: 10,
+        time: 3000
+      });
+     });
+   </script>
+  <script src="js/main.js"></script>
   </body>
 </html>
