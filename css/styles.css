@@ -19,10 +19,17 @@ ul{
 }
 /*header*/
 header{
-	padding-top:30px;
+	padding-top:20px;
 	min-height:70px;
-	padding-bottom: 19px;
+	padding-bottom: 20px;
 /*	border-bottom: #e8491d 3px solid;*/
+	position: fixed;
+    width: 100%;
+    background: #fff;
+    z-index: 100;
+    /*box-shadow: 0px 4px 15px rgba(0,0,0,0.07);
+    border-bottom: 1px solid #f0f0f0;*/
+
 }
 header a{
 	color:#000;
@@ -537,4 +544,9 @@ box-shadow: -5px -10px 22px -2px rgba(0,0,0,0.75);
     -webkit-box-shadow: 3px -1px 17px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 3px -1px 17px 0px rgba(0,0,0,0.75);
     box-shadow: 3px -1px 17px 0px rgba(0,0,0,0.75);
+}
+.make-align {
+    padding-top:116px;
+
+    /* width: 100%; */
 }
