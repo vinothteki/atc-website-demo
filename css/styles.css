@@ -124,7 +124,7 @@ section#main-new{
 	height:100%;
 	-webkit-box-shadow: 20px 11px 71px -6px rgba(92,90,92,1);
 -moz-box-shadow: 20px 11px 71px -6px rgba(92,90,92,1);
-box-shadow: 20px 11px 71px -6px rgba(92,90,92,1);
+box-shadow: 0px 21px 29px -6px rgba(92,90,92,1);
 
 }
 aside#contant-two{
@@ -377,7 +377,7 @@ box-shadow: 20px 11px 71px -6px rgba(92,90,92,1);
 box-shadow: 20px 11px 71px -6px rgba(92,90,92,1);*/
 -webkit-box-shadow: 3px 0px 31px -1px rgba(0,0,0,0.75);
 -moz-box-shadow: 3px 0px 31px -1px rgba(0,0,0,0.75);
-box-shadow: 3px 0px 31px -1px rgba(0,0,0,0.75);
+box-shadow: 3px 0px 31px -1px rgb(224, 224, 224);
       padding: 11px;
     margin: 20px;
 }
