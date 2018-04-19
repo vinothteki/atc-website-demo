@@ -469,10 +469,10 @@
     </div>
     </div>
     </section>
-    <section>
+    <!-- <section>
     <div class="container-fluid">
       <div class="clients-logo">
-        
+        <div  id="flexiselDemo1">
           <img src="./img/image7.png">
           <img src="./img/image6.png">
           <img src="./img/image5.png">
@@ -480,9 +480,58 @@
           <img src="./img/comp.png">
           <img src="./img/hp.png">
           <img src="./img/ssony.png">
+          </div>
       </div>
       </div>
-    </section>
+    </section> -->
+    <section class="partners">
+        <div class="container">
+          <div class="sliderfig">
+            <ul id="flexiselDemo1">			
+              <li>
+                <img src="./img/image7.png" class="img-responsive" />
+              </li>
+              <li>
+                <img src="./img/image6.png" class="img-responsive" />
+              </li>
+              <li>
+                <img src="./img/image5.png" class="img-responsive" />
+              </li>
+              <li>
+                <img src="./img/image4.png" class="img-responsive" />
+              </li>
+              <li>
+                <img src="./img/comp.png" class="img-responsive" />
+              </li>
+              <li>
+                <img src="./img/hp.png"  class="img-responsive" />
+              </li>
+              <li>
+                <img src="./img/ssony.png" class="img-responsive" />
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
      <div class="container-fluid">
       <div class="down-box">
         <div class="row">
@@ -683,6 +732,33 @@
 		
 			});
     </script>
-    
+    <script type="text/javascript">
+      $(window).load(function() {
+        $("#flexiselDemo1").flexisel({
+          visibleItems: 5,
+          animationSpeed: 4000,
+          autoPlay: true,
+          autoPlaySpeed: 5000,    		
+          pauseOnHover: true,
+          enableResponsiveBreakpoints: true,
+          responsiveBreakpoints: { 
+            portrait: { 
+              changePoint:480,
+              visibleItems: 1
+            }, 
+            landscape: { 
+              changePoint:640,
+              visibleItems:2
+            },
+            tablet: { 
+              changePoint:768,
+              visibleItems: 3
+            }
+          }
+        });
+        
+      });
+  </script>
+  <script type="text/javascript" src="js/jquery.flexisel.js"></script>
   </body>
 </html>
