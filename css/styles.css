@@ -80,7 +80,7 @@ box-shadow: 20px 11px 71px -6px rgba(92,90,92,1);*/
     background-color: #ffffff;
     /* margin-top: 23%; */
     border-radius: 15px;
-    background: rgba(0, 0, 0, 0.26);
+	background: rgba(0, 0, 0, 0.11);
     -webkit-box-shadow: 6px -8px 19px 2px rgba(0,0,0,0.75);
 -moz-box-shadow: 6px -8px 19px 2px rgba(0,0,0,0.75);
 box-shadow: 6px -8px 19px 2px rgba(0,0,0,0.75);
@@ -662,7 +662,7 @@ box-shadow: -5px -10px 22px -2px rgba(0,0,0,0.75);
 } */
 /*-- //banner-text --*/
 /*-- banner-top --*/
-.w3layouts-banner-top{
+.layouts-banner-top{
     background: url(../img/b4.jpg) no-repeat 0px 0px;
     background-size: cover;	
 	-webkit-background-size: cover;	
@@ -671,7 +671,7 @@ box-shadow: -5px -10px 22px -2px rgba(0,0,0,0.75);
 	-moz-background-size: cover;
 	min-height:700px;
 }
-.w3layouts-banner-top1{
+.layouts-banner-top1{
 	background: url(../img/dashboard.jpg) no-repeat 0px 0px;
     background-size: cover;	
 	-webkit-background-size: cover;	
@@ -680,7 +680,7 @@ box-shadow: -5px -10px 22px -2px rgba(0,0,0,0.75);
 	-moz-background-size: cover;
 	min-height:700px;
 }
-.w3layouts-banner-top2{
+.layouts-banner-top2{
 	background: url(../img/people.jpg) no-repeat 0px 0px;
     background-size: cover;	
 	-webkit-background-size: cover;	
@@ -689,7 +689,7 @@ box-shadow: -5px -10px 22px -2px rgba(0,0,0,0.75);
 	-moz-background-size: cover;	
 	min-height:700px;
 }
-.w3layouts-banner-top3{
+.layouts-banner-top3{
 	background: url(../img/employee.jpg) no-repeat 0px 0px;
     background-size: cover;	
 	-webkit-background-size: cover;	
